@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.single_inspection">
+
+    <ImageView
+        android:id="@+id/vio_nature_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
+        android:maxWidth="40dp"
+        android:maxHeight="40dp"
+        app:srcCompat="@drawable/pest_blk"
+        tools:ignore="RtlCompat"
+        android:contentDescription="@string/nature_icon" />
+
+    <ImageView
+        android:id="@+id/vio_critical_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:maxWidth="40dp"
+        android:maxHeight="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/low_risk"
+        tools:ignore="RtlCompat"
+        android:contentDescription="@string/rate_icon" />
+
+    <TextView
+        android:id="@+id/vio_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/vio_nature_icon"
+        android:layout_toStartOf="@id/vio_critical_icon"
+        android:layout_alignTop="@id/vio_nature_icon"
+        android:layout_marginStart="10dp"
+        android:text="@string/violation_info" />
+
+    <TextView
+        android:id="@+id/vio_short"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/vio_info"
+        android:layout_below="@id/vio_info"
+        android:text="@string/violation_short" />
+</RelativeLayout>

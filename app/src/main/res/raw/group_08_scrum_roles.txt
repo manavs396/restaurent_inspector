@@ -1,0 +1,6 @@
+Scrum roles for iteration 3:
+
+Brian Hsu: Scrum master
+HongZhou Tao: Team member
+Ziyan Xu: Project owner
+Manav Sharma: Repo manager

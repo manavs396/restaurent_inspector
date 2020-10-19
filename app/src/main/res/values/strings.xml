@@ -1,0 +1,252 @@
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="empty_msg">TextView</string>
+    <string name="search_hint">Enter keywords to filter</string>
+    <string name="critical_hint"># of critical issue</string>
+    <string name="search">Search</string>
+    <string name="filter">Search for Restaurants</string>
+    <string name="toase_message_on_favourite">Restaurant has been made a favourite!</string>
+    <string name="toast_message_on_not_favourite">Restaurant is no longer a favourite.</string>
+
+    <string name="map_ready">Map is ready</string>
+    <string name="clear_search">Clear Search</string>
+    <string name="goto_map">GO TO MAP</string>
+    <string name="rate_icon">icon for hazard levels</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBy23bMhWnlwGCmTV8ipUolB6yaTrdySzY</string>
+    <string name="res_icon">icon for restaurant</string>
+    <string name="nature_icon">icon for nature of violation</string>
+    <string name="app_name">Surrey Restaurants Report</string>
+    <string name="surrey_restaurant_list">Surrey Restaurant List: </string>
+    <string name="displayListActivity_noRestaurant">No Restaurants Available</string>
+    <string name="restaurant_name">Restaurant Name</string>
+    <string name="restaurant_city">City</string>
+    <string name="restaurant_address">Address</string>
+    <string name="restaurant_issuesFound"># of Issues Found: %d</string>
+    <string name="restaurant_hazardLevel">Hazard Level: %s</string>
+    <string name="restaurant_inspectionPerformedOn">Inspection Performed On: %s</string>
+    <string name="restaurant_hazardLevelModerate_value">Moderate</string>
+    <string name="restaurant_hazardLevelHigh_value">High</string>
+    <string name="restaurant_hazardLevelLow_value">Low</string>
+    <string name="restaurant_hazardLevelNo_value">Unknown</string>
+    <string name="restaurant_noInspectionAvailable_value">TBD\u0020</string>
+    <string name="inspection_num_critical">Critical issues: %d</string>
+    <string name="inspection_num_noncritical">Non-critical issues: %d</string>
+    <string name="restaurant_info">Address: %1$s, %2$s\nGPS: %3$s</string>
+    <string name="inspection_info">Inspection Performed On:\n%s</string>
+    <string name="inspection_type">Inspection type: %s</string>
+    <string name="inspection_type_routine">Routine</string>
+    <string name="inspection_type_followup">Follow-up</string>
+    <string name="inspection_date">%d Days ago</string>
+    <string name="violation_critical">\u0020Critical</string>
+    <string name="violation_pest">Pest</string>
+    <string name="violation_animal">Animal</string>
+    <string name="violation_employee">Employee</string>
+    <string name="violation_premises">Premises</string>
+    <string name="violation_training">Training</string>
+    <string name="violation_food">Food</string>
+    <string name="violation_permit">Permits</string>
+    <string name="violation_chemical">Chemical</string>
+    <string name="violation_info">#1$%d, %2$s, %3$s</string>
+    <string name="violation_short">%s</string>
+    <string name="info_title">Authors and resources</string>
+    <string name="attributes">Resources attributes:\n
+        <a href="https://icons8.com/icon/bltmTieKcVvs/high-risk">High Risk icon by Icons8</a>\n
+        <a href="https://icons8.com/icon/Wmvgpu1GaLLk/mouse-animal">Mouse Animal icon by Icons8</a>\n
+        <a href="https://icons8.com/icon/63635/cockroach">Cockroach icon by Icons8</a>\n
+        <a href="https://icons8.com/icon/109955/kitchen">Kitchen icon by Icons8</a>\n
+        <a href="https://icons8.com/icon/47582/cook">Cook icon by Icons8</a>\n
+        <a href="https://icons8.com/icon/48580/training">Training icon by Icons8</a>\n
+        <a href="https://icons8.com/icon/12706/restaurant-building">Restaurant Building icon by Icons8</a>\n
+        <a href="https://icons8.com/icon/7613/hamburger">Hamburger icon by Icons8</a>\n
+        <a href="https://icons8.com/icon/66476/licence">Licence icon by Icons8</a>\n
+        <a href="https://icons8.com/icon/112402/test-tube">Test Tube icon by Icons8</a>\n
+    </string>
+    <string name="author">Created by: \n
+    Brian Hsu,\n
+    Hongzhou Tao\n
+    Manav Sharma and\n
+    Ziyan Xu, \n
+    as a project for
+        <a href="http://opencoursehub.cs.sfu.ca/jackt/grav-cms/cmpt276/home">SFU CMPT276 D100 Summer 2020</a></string>
+    <string name="title_activity_maps">Map</string>
+    <string name="please_wait">Please wait…</string>
+    <string name="yes">yes</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancel</string>
+    <string name="cancel_download">Cancel download</string>
+    <string name="update_available">Update available</string>
+    <string name="do_you_want_to_get_the_updated_data">Do you want to get the updated data?</string>
+    <string name="favorite_restaurants_with_new_inspection">Favorite Restaurants with new Inspection:</string>
+    <string-array name="violation_nature">
+        <item>Premises</item>
+        <item>Permits</item>
+        <item>Permits</item>
+        <item>Permits</item>
+        <item>Food</item>
+        <item>Food</item>
+        <item>Food</item>
+        <item>Food</item>
+        <item>Food</item>
+        <item>Food</item>
+        <item>Food</item>
+        <item>Food</item>
+        <item>Food</item>
+        <item>Food</item>
+        <item>Training</item>
+        <item>Equipment/utensils/surfaces</item>
+        <item>Equipment/utensils/surfaces</item>
+        <item>Equipment/utensils/surfaces</item>
+        <item>Pest</item>
+        <item>Pest</item>
+        <item>Premises</item>
+        <item>Equipment/utensils/surfaces</item>
+        <item>Equipment/utensils/surfaces</item>
+        <item>Chemical</item>
+        <item>Equipment</item>
+        <item>Permits</item>
+        <item>Premises</item>
+        <item>Animal</item>
+        <item>Training</item>
+        <item>Equipment</item>
+        <item>Equipment</item>
+        <item>Employee</item>
+        <item>Employee</item>
+        <item>Employee</item>
+        <item>Training</item>
+        <item>Training</item>
+    </string-array>
+    <string-array name="violation_critical">
+        <item>Not Critical</item>
+        <item>Not Critical</item>
+        <item>Not Critical</item>
+        <item>Not Critical</item>
+        <item>Critical</item>
+        <item>Critical</item>
+        <item>Critical</item>
+        <item>Critical</item>
+        <item>Critical</item>
+        <item>Critical</item>
+        <item>Not Critical</item>
+        <item>Not Critical</item>
+        <item>Not Critical</item>
+        <item>Not Critical</item>
+        <item>Not Critical</item>
+        <item>Critical</item>
+        <item>Critical</item>
+        <item>Critical</item>
+        <item>Not Critical</item>
+        <item>Not Critical</item>
+        <item>Not Critical</item>
+        <item>Not Critical</item>
+        <item>Not Critical</item>
+        <item>Not Critical</item>
+        <item>Not Critical</item>
+        <item>Not Critical</item>
+        <item>Not Critical</item>
+        <item>Not Critical</item>
+        <item>Not Critical</item>
+        <item>Not Critical</item>
+        <item>Critical</item>
+        <item>Critical</item>
+        <item>Not Critical</item>
+        <item>Not Critical</item>
+        <item>Not Critical</item>
+        <item>Not Critical</item>
+    </string-array>
+
+    <string-array name="violation_short">
+        <item>Inproper plans/construction/alterations</item>
+        <item>Unapproved food premises</item>
+        <item>Lack of valid permit</item>
+        <item>Permit not posted</item>
+        <item>Contaminated</item>
+        <item>Not processed properly</item>
+        <item>Not cooled properly</item>
+        <item>Not cooked properly</item>
+        <item>Cold: stored/displayed above 4 °C</item>
+        <item>Hot: stored/displayed below 60 °C</item>
+        <item>Unapproved source</item>
+        <item>Not protected from contamination</item>
+        <item>Not thawed properly</item>
+        <item>Frozen: stored/displayed above -18 °C</item>
+        <item>Lack of food handling procedure</item>
+        <item>Improper maintenance</item>
+        <item>Improper washing/sanitation</item>
+        <item>Improper maintenance</item>
+        <item>Pest in premises</item>
+        <item>Entrance/harbouring/breeding of pests</item>
+        <item>Improper maintenance</item>
+        <item>Unsuitable design/material</item>
+        <item>Improper working order</item>
+        <item>Improper storage/label</item>
+        <item>Reuse of single-use item</item>
+        <item>Premises not maintained properly</item>
+        <item>Unnesessary items</item>
+        <item>Live animals in premises</item>
+        <item>Lack of sanitation procedure</item>
+        <item>Lack of accurate thermometer</item>
+        <item>Lack of handwashing stations</item>
+        <item>Improper handwashing</item>
+        <item>Improper personal hygiene</item>
+        <item>Smoking</item>
+        <item>Operator lacks FOODSAFE Level 1</item>
+        <item>Staff on duty lack FOODSAFE Level 1</item>
+    </string-array>
+
+    <string-array name="violation_long">
+        <item>Plans/construction/alterations not in accordance with the Regulation [s. 3; s. 4]</item>
+        <item>Operation of an unapproved food premises [s. 6(1)]</item>
+        <item>Failure to hold a valid permit while operating a food service establishment [s. 8(1)]</item>
+        <item>Permit not posted in a conspicuous location [s. 8(7)]</item>
+        <item>Food contaminated or unfit for human consumption [s. 13]</item>
+        <item>Food not processed in a manner that makes it safe to eat [s. 14(1)]</item>
+        <item>Food not cooled in an acceptable manner [s. 12(a)]</item>
+        <item>Food not cooked or reheated in a manner that makes it safe to eat [s. 14(1)]</item>
+        <item>Cold potentially hazardous food stored/displayed above 4 °C. [s. 14(2)]</item>
+        <item>Hot potentially hazardous food stored/displayed below 60 °C. [s. 14(2)]</item>
+        <item>Foods obtained from unapproved sources [s. 11]</item>
+        <item>Food not protected from contamination [s. 12(a)]</item>
+        <item>Food not thawed in an acceptable manner [s. 14(2)]</item>
+        <item>Frozen potentially hazardous food stored/displayed above -18 °C. [s. 14(3)]</item>
+        <item>Operator has not provided acceptable written food handling procedures [s. 23]</item>
+        <item>Equipment/utensils/food contact surfaces not maintained in sanitary condition [s. 17(1)]</item>
+        <item>Equipment/utensils/food contact surfaces not properly washed and sanitized [s. 17(2)]</item>
+        <item>Equipment/facilities/hot &amp; cold water for sanitary maintenance not adequate [s. 17(3); s. 4(1)(f)]</item>
+        <item>Premises not free of pests [s. 26(a)]</item>
+        <item tools:ignore="TypographyOther">Conditions observed that may allow entrance/harbouring/breeding of pests [s. 26(b)(c)]</item>
+        <item>Food premises not maintained in a sanitary condition [s. 17(1)]</item>
+        <item>Equipment/utensils/food contact surfaces are not of suitable design/material [s. 16; s. 19]</item>
+        <item>Equipment/utensils/food contact surfaces are not in good working order [s. 16(b)]</item>
+        <item>Chemicals cleansers &amp; similar agents stored or labeled improperly [s. 27]</item>
+        <item>Single use containers &amp; utensils are used more than once [s. 20]</item>
+        <item>Premises not maintained as per approved plans [s. 6(1)(b)]</item>
+        <item>Items not required for food premises operation being stored on the premises [s. 18]</item>
+        <item>Live animal on the premises excluding guide animal in approved areas [s. 25(1)]</item>
+        <item>Operator has not provided acceptable written sanitation procedures [s. 24]</item>
+        <item>Refrigeration units and hot holding equipment lack accurate thermometers [s. 19(2)]</item>
+        <item>Adequate handwashing stations not available for employees [s. 21(4)]</item>
+        <item>Employee does not wash hands properly or at adequate frequency [s. 21(3)]</item>
+        <item>Employee lacks good personal hygiene clean clothing and hair control [s. 21(1)]</item>
+        <item>Employee smoking in food preparation/processing/storage areas [s. 21(2)]</item>
+        <item>Operator does not have FOODSAFE Level 1 or Equivalent [s. 10(1)]</item>
+        <item>In absence of operator no staff on duty has FOODSAFE Level 1 or equivalent [s. 10(2)]</item>
+    </string-array>
+
+    <string-array name="hazard_list">
+        <item>Hazard Level</item>
+        <item>Low</item>
+        <item>Moderate</item>
+        <item>High</item>
+    </string-array>
+
+    <string-array name="favorite_list">
+        <item>favorite?</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="criticalVio_list">
+        <item>&lt;=/>=</item>
+        <item>&lt;=</item>
+        <item>>=</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,252 @@
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="empty_msg">TextView</string>
+    <string name="search_hint">キーワードを入力して検索する</string>
+    <string name="critical_hint">重要問題数</string>
+    <string name="search">検索</string>
+    <string name="filter">レストランを検索</string>
+    <string name="toase_message_on_favourite">お気に入りに追加しました</string>
+    <string name="toast_message_on_not_favourite">お気に入りを解除しました</string>
+
+    <string name="map_ready">マップがロードされました</string>
+    <string name="clear_search">検索をクリアする</string>
+    <string name="goto_map">マップへ</string>
+    <string name="rate_icon">icon for hazard levels</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBy23bMhWnlwGCmTV8ipUolB6yaTrdySzY</string>
+    <string name="res_icon">icon for restaurant</string>
+    <string name="nature_icon">icon for nature of violation</string>
+    <string name="app_name">Surrey Restaurants Report</string>
+    <string name="surrey_restaurant_list">サレー飲食店リスト: </string>
+    <string name="displayListActivity_noRestaurant">飲食店を見つかりませんでした</string>
+    <string name="restaurant_name">Restaurant Name</string>
+    <string name="restaurant_city">City</string>
+    <string name="restaurant_address">Address</string>
+    <string name="restaurant_issuesFound">発見された問題: %d</string>
+    <string name="restaurant_hazardLevel">リスクレベル: %s</string>
+    <string name="restaurant_inspectionPerformedOn">検査日: %s</string>
+    <string name="restaurant_hazardLevelModerate_value">中</string>
+    <string name="restaurant_hazardLevelHigh_value">高</string>
+    <string name="restaurant_hazardLevelLow_value">低</string>
+    <string name="restaurant_hazardLevelNo_value">未定</string>
+    <string name="restaurant_noInspectionAvailable_value">未定\u0020</string>
+    <string name="inspection_num_critical">重要問題: %d</string>
+    <string name="inspection_num_noncritical">一般問題: %d</string>
+    <string name="restaurant_info">住所: %1$s, %2$s\nGPS: %3$s</string>
+    <string name="inspection_info">検査日:\n%s</string>
+    <string name="inspection_type">検査タイプ: %s</string>
+    <string name="inspection_type_routine">通常検査</string>
+    <string name="inspection_type_followup">追跡検査</string>
+    <string name="inspection_date">%d日前</string>
+    <string name="violation_critical">\u0020Critical</string>
+    <string name="violation_pest">Pest</string>
+    <string name="violation_animal">Animal</string>
+    <string name="violation_employee">Employee</string>
+    <string name="violation_premises">Premises</string>
+    <string name="violation_training">Training</string>
+    <string name="violation_food">Food</string>
+    <string name="violation_permit">Permits</string>
+    <string name="violation_chemical">Chemical</string>
+    <string name="violation_info">#%1$d, %2$s, %3$s</string>
+    <string name="violation_short">%s</string>
+    <string name="info_title">作者と使用したリソース</string>
+    <string name="attributes">リソース源:\n
+        <a href="https://icons8.com/icon/bltmTieKcVvs/high-risk">High Risk icon by Icons8</a>\n
+<a href="https://icons8.com/icon/Wmvgpu1GaLLk/mouse-animal">Mouse Animal icon by Icons8</a>\n
+<a href="https://icons8.com/icon/63635/cockroach">Cockroach icon by Icons8</a>\n
+<a href="https://icons8.com/icon/109955/kitchen">Kitchen icon by Icons8</a>\n
+<a href="https://icons8.com/icon/47582/cook">Cook icon by Icons8</a>\n
+<a href="https://icons8.com/icon/48580/training">Training icon by Icons8</a>\n
+<a href="https://icons8.com/icon/12706/restaurant-building">Restaurant Building icon by Icons8</a>\n
+<a href="https://icons8.com/icon/7613/hamburger">Hamburger icon by Icons8</a>\n
+<a href="https://icons8.com/icon/66476/licence">Licence icon by Icons8</a>\n
+<a href="https://icons8.com/icon/112402/test-tube">Test Tube icon by Icons8</a>\n
+</string>
+    <string name="author">作者: \n
+    Brian Hsu,\n
+    Hongzhou Tao\n
+    Manav Sharma and\n
+    Ziyan Xu, \n
+        <a href="http://opencoursehub.cs.sfu.ca/jackt/grav-cms/cmpt276/home">SFU CMPT276 D100 Summer 2020</a>
+        のプロジェクトとして
+    </string>
+    <string name="title_activity_maps">マップ</string>
+    <string name="please_wait">ロード中…</string>
+    <string name="yes">はい</string>
+    <string name="no">いいえ</string>
+    <string name="cancel">キャンセル</string>
+    <string name="cancel_download">中止する</string>
+    <string name="update_available">新しいデータがあります</string>
+    <string name="do_you_want_to_get_the_updated_data">データを更新しますか?</string>
+    <string name="favorite_restaurants_with_new_inspection">お気に入りレストランに新しい検査記録があります:</string>
+    <string-array name="violation_nature">
+        <item>施設</item>
+        <item>許可</item>
+        <item>許可</item>
+        <item>許可</item>
+        <item>食品</item>
+        <item>食品</item>
+        <item>食品</item>
+        <item>食品</item>
+        <item>食品</item>
+        <item>食品</item>
+        <item>食品</item>
+        <item>食品</item>
+        <item>食品</item>
+        <item>食品</item>
+        <item>トレーニング</item>
+        <item>設備/器具</item>
+        <item>設備/器具</item>
+        <item>設備/器具</item>
+        <item>害虫</item>
+        <item>害虫</item>
+        <item>施設</item>
+        <item>設備/器具</item>
+        <item>設備/器具</item>
+        <item>化学品</item>
+        <item>設備</item>
+        <item>許可</item>
+        <item>施設</item>
+        <item>動物</item>
+        <item>トレーニング</item>
+        <item>設備</item>
+        <item>設備</item>
+        <item>従業員</item>
+        <item>従業員</item>
+        <item>従業員</item>
+        <item>トレーニング</item>
+        <item>トレーニング</item>
+    </string-array>
+    <string-array name="violation_critical">
+        <item>一般</item>
+        <item>一般</item>
+        <item>一般</item>
+        <item>一般</item>
+        <item>重要</item>
+        <item>重要</item>
+        <item>重要</item>
+        <item>重要</item>
+        <item>重要</item>
+        <item>重要</item>
+        <item>一般</item>
+        <item>一般</item>
+        <item>一般</item>
+        <item>一般</item>
+        <item>一般</item>
+        <item>重要</item>
+        <item>重要</item>
+        <item>重要</item>
+        <item>一般</item>
+        <item>一般</item>
+        <item>一般</item>
+        <item>一般</item>
+        <item>一般</item>
+        <item>一般</item>
+        <item>一般</item>
+        <item>一般</item>
+        <item>一般</item>
+        <item>一般</item>
+        <item>一般</item>
+        <item>一般</item>
+        <item>重要</item>
+        <item>重要</item>
+        <item>一般</item>
+        <item>一般</item>
+        <item>一般</item>
+        <item>一般</item>
+    </string-array>
+    <string-array name="violation_short">
+        <item>無認可な区画・建設・変更</item>
+        <item>無認可な施設</item>
+        <item>営業許可の欠如</item>
+        <item>営業許可未掲示</item>
+        <item>汚染された食品</item>
+        <item>不適切な処理</item>
+        <item>不適切な冷蔵保存</item>
+        <item>不適切な調理</item>
+        <item>低温保存：4 °C以上</item>
+        <item>高温保存：60 °C以下</item>
+        <item>無認可の食料供給元</item>
+        <item>汚染のリスク</item>
+        <item>不適切な解凍処理</item>
+        <item>冷凍保存：-18 °C以上</item>
+        <item>食品取り扱い手順の欠如</item>
+        <item>不適切なメンテナンス</item>
+        <item>不適切な洗浄・消毒</item>
+        <item>不適切な衛生管理</item>
+        <item>敷地内の害虫</item>
+        <item>害虫の侵入/潜伏/繁殖</item>
+        <item>不適切な衛生管理</item>
+        <item>不合理なデザインや材料</item>
+        <item>機能していない状態</item>
+        <item>不適切な表示や保存方法</item>
+        <item>使い捨てアイテムの再使用</item>
+        <item>不適切な施設メンテナンス</item>
+        <item>不必要なもの</item>
+        <item>敷地内の動物</item>
+        <item>衛生管理手順の欠如</item>
+        <item>正確な温度計の欠如</item>
+        <item>手洗い場の欠如</item>
+        <item>不適切な手洗い</item>
+        <item>不適切な個人衛生管理</item>
+        <item>喫煙</item>
+        <item>経営者：FOODSAFE1級の欠如</item>
+        <item>当直従業員：FOODSAFE1級の欠如</item>
+    </string-array>
+    <string-array name="violation_long">
+        <item>区画・建設・変更は規則に従っていません [s. 3; s. 4]</item>
+        <item>無認可な飲食施設の経営 [s. 6(1)]</item>
+        <item>営業許可なしでの飲食業営業 [s. 8(1)]</item>
+        <item>営業許可証が目立つ場所に掲示されていない [s. 8(7)]</item>
+        <item>食品が汚染されているか、人間の消費に適さない [s. 13]</item>
+        <item>食品は安全な方法で処理されていません [s. 14(1)]</item>
+        <item>食品は適切な方法で冷まされていません [s. 12(a)]</item>
+        <item>食品は適切な方法で調理または再加熱されていません [s. 14(1)]</item>
+        <item>低温保存食品が4 °C以上で保存・展示されています [s. 14(2)]</item>
+        <item>高温保存食品が60 °C以下で保存・展示されています [s. 14(2)]</item>
+        <item>食品は無認可の供給元から入手されています [s. 11]</item>
+        <item>食品は汚染源から保護されていません [s. 12(a)]</item>
+        <item>食品は適切な方法で解凍されていません [s. 14(2)]</item>
+        <item>冷凍保存食品が-18 °C以上で保存・展示されています [s. 14(3)]</item>
+        <item>経営者は書面による適切な食品取り扱い手順を提供していません [s. 23]</item>
+        <item>設備や器具などの清潔を維持されていません  [s. 17(1)]</item>
+        <item>設備や器具などを適切に洗浄または消毒されていません [s. 17(2)]</item>
+        <item>設備・施設・給水の清潔を維持されていません [s. 17(3); s. 4(1)(f)]</item>
+        <item>敷地内に害虫が存在しています [s. 26(a)]</item>
+        <item tools:ignore="TypographyOther">害虫が侵入・潜伏・繁殖しやすい環境や状態 [s. 26(b)(c)]</item>
+        <item>食品施設の清潔を維持されていません [s. 17(1)]</item>
+        <item>設備や器具などは不合理なデザインや材料で作られています [s. 16; s. 19]</item>
+        <item>設備や器具などは正確に機能する状態ではありません [s. 16(b)]</item>
+        <item>化学洗剤などは適切な方法で保存または表示されていません [s. 27]</item>
+        <item>使い捨てアイテムは一回以上使われています [s. 20]</item>
+        <item>施設は認可された計画でメンテナンスされていません [s. 6(1)(b)]</item>
+        <item>敷地内に飲食業経営に必要とされない物が貯蔵されています [s. 18]</item>
+        <item>敷地内に認可されたガイド動物以外の動物が存在します [s. 25(1)]</item>
+        <item>経営者は書面による適切な衛生手順を提供していません [s. 24]</item>
+        <item>冷凍や保温装置に正確な温度計はありません[s. 19(2)]</item>
+        <item>従業員が使用できる適切な手洗い場がありません [s. 21(4)]</item>
+        <item>従業員が適切にまたは適切な頻度で手を洗っていません [s. 21(3)]</item>
+        <item>従業員個人の服または髪の毛の衛生管理が不足しています [s. 21(1)]</item>
+        <item>従業員の食品準備・処理・保存場での喫煙 [s. 21(2)]</item>
+        <item>経営者はFOODSAFE1級または同等な認証を持っていません [s. 10(1)]</item>
+        <item>経営者不在の場合は、当直従業員はFOODSAFE1級または同等な認証を持っていません [s. 10(2)]</item>
+    </string-array>
+
+    <string-array name="hazard_list">
+        <item>リスクレベル</item>
+        <item>低</item>
+        <item>中</item>
+        <item>高</item>
+    </string-array>
+
+    <string-array name="favorite_list">
+        <item>お気に入り?</item>
+        <item>はい</item>
+    </string-array>
+
+    <string-array name="criticalVio_list">
+        <item>&lt;=/>=</item>
+        <item>&lt;=</item>
+        <item>>=</item>
+    </string-array>
+
+
+</resources>
